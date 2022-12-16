@@ -1,0 +1,9 @@
+@import "./base.css";
+
+a {
+    text-decoration: none;
+}
+ul {
+    padding-left: 0;
+    list-style: none;
+  }
