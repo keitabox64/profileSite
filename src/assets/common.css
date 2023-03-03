@@ -3,7 +3,37 @@
 a {
     text-decoration: none;
 }
-ul {
-    padding-left: 0;
-    list-style: none;
-  }
+ul{
+    font-weight: 500;
+}
+ol {
+    font-weight: 500
+}
+h2 {
+    font-weight: 800;
+    line-height: 2.2rem;
+}
+h3 {
+    font-weight: 800;
+    line-height: 1.8rem;
+}
+h4 {
+    font-weight: 800;
+}
+p {
+    font-weight: 500;
+}
+strong {
+    font-weight: 800;
+    color: #d66a6a;
+}
+img {
+    text-align: center; 
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    img {
+        width: 600px;
+    }
+}

@@ -62,7 +62,7 @@ onMounted(() => {
             <RouterLink to="/" class="globalNavMenuListContent toggle1">Home</RouterLink>
           </li>
           <li>
-            <RouterLink to="/webdesigner" class="globalNavMenuListContent toggle3">WebDesigner</RouterLink>
+            <RouterLink to="/webengineer" class="globalNavMenuListContent toggle3">WebEngineer</RouterLink>
           </li>
           <li>
             <RouterLink to="/Organizer" class="globalNavMenuListContent toggle4">Organizer</RouterLink>
@@ -83,6 +83,7 @@ onMounted(() => {
 </template>
 
 <style scoped>
+
 .headerWrapper {
   background-color: #ffffff;
 }
@@ -157,6 +158,7 @@ onMounted(() => {
   align-items: center;
   flex-direction: column;
   margin: 32px auto 0;
+  list-style: none;
 }
 .globalNavMenuList li {
   margin-top: 32px;

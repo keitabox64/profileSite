@@ -24,12 +24,12 @@ client
   <main>
   <div class="common WebDesigner">
     <section class="WebDesignerTitle">
-      <h1>WebDesigner</h1>
+      <h1>WebEngineer</h1>
       <span class="WebDesignerLine"></span>
     </section>
     <section class="WebDesignerExplanation">
-      <h2>コミュニケーションの取りやすさが武器</h2>
-      <p>顧客の強みを把握し、何が課題かをコミュニケーションの中で見出すことができるWebデザイナー。メッセージのレスの早さと、顧客に寄り添う姿勢を崩さず、必要とあれば直接先方に駆けつけることも辞さないフットワークの軽さが強み。
+      <h2>コミュニケーション能力が武器</h2>
+      <p>顧客の強みを把握し、何が課題かをコミュニケーションの中で見出すことができます。メッセージのレスの早さと、顧客に寄り添う姿勢を崩さず、必要とあれば直接先方に駆けつけることも辞さないフットワークの軽さが強みです。
       </p>
     </section>
     <section class="WebDesignerWorks">

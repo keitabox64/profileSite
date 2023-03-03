@@ -28,7 +28,7 @@ onMounted(() => {
     <main>
         <div class="common Works">
             <section class="WorksTitle">
-                <h1>WebDesignerWorks</h1>
+                <h1>WebEngineerWorks</h1>
                 <span class="WorksLine"></span>
             </section>
             <section class="WorksExplanation">
@@ -37,19 +37,24 @@ onMounted(() => {
                 <p>{{ user.term }}</p>
                 <p>{{ user.tech }}</p>
                 <a :href="user.webSite" class="WorksExplanationLink" target="_blank">Webサイトはこちら</a>
+                <br>
+                <br>
+                <div class="mainText" v-html="user.mainText"></div>
+                <br>
+                <br>
                 <div class="wrap">
                     <ul class="WorksContent">
                         <li class="itemPC js-item">
-                            <p>PC</p><img :src="user.pcImage && user.pcImage.url" alt="">
+                            <img :src="user.pcImage && user.pcImage.url" alt="">
                         </li>
                         <li class="itemSP js-item">
-                            <p>SP</p><img :src="user.spImage && user.spImage.url" alt="">
+                            <img :src="user.spImage && user.spImage.url" alt="">
                         </li>
                     </ul>
                 </div>
             </section>
             <div class="btnPosition">
-                <RouterLink to="/webdesigner" class="returnToWebDesigner slideRed">Return to WebDesigner Page
+                <RouterLink to="/webengineer" class="returnToWebDesigner slideRed">Return to WebEngineer Page
                 </RouterLink>
             </div>
         </div>
@@ -135,6 +140,7 @@ main {
 
 .WorksContent {
     margin: 0 auto;
+    list-style: none;
 }
 
 .itemPC {
@@ -161,6 +167,18 @@ main {
 
 .itemSP img {
     width: 100%;
+}
+
+.mainText ::v-deep {
+    line-height: 1.6rem;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 0 20px;
+}
+
+.mainText img ::v-deep {
+    text-align: center;
+    width: 600px;
 }
 
 /**WebDesingerページに戻るボタン */

@@ -571,7 +571,7 @@ onMounted(() => {
               </div>
               <div class="targetElemFromLeft">
                 <h1 class="mainTitle__text">Web</h1>
-                <h1 class="mainTitle__text">Designer</h1>
+                <h1 class="mainTitle__text">Engineer</h1>
               </div>
               <p class="message targetElemFromLeft">Work that require skill and sence.</p>
             </div>
@@ -584,7 +584,7 @@ onMounted(() => {
               <div class="rearSquareRed targetElemFromRight"></div>
             </div>
             <div class="btn-position">
-              <RouterLink to="/webdesigner" class="btn slideRed targetElemFromLeft">VIEW MORE</RouterLink>
+              <RouterLink to="/webengineer" class="btn slideRed targetElemFromLeft">VIEW MORE</RouterLink>
             </div>
           </div>
         </section>
@@ -736,6 +736,10 @@ onMounted(() => {
 /* 共通パーツ */
 main {
   background-color: #ffffff;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
 }
 .wrapper {
   scroll-snap-type: y mandatory;

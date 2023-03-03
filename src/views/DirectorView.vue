@@ -10,7 +10,7 @@ import { RouterLink } from 'vue-router'
       </section>
       <section class="DirectorExplanation">
         <h2>映像制作から映像総合プロデュースまで</h2>
-        <p>2014年1月から自主制作映画のプロデューサーを務めたのをきっかけに映像制作を手掛けるようになる。培った経験と人脈で、映像制作にとどまらず、ライブ配信やドローンの空撮も行える映像総合プロデュースを手掛ける。</p>
+        <p>自主制作映画を作った経験から映像制作を手掛けるようになりました。これまでに30本以上の映像制作に関わり、培った経験と人脈で、映像制作にとどまらず、ライブ配信やドローンの空撮も行える映像総合プロデュースを手掛けます。</p>
       </section>
       <section class="DirectorWorks">
         <h2 class="DirectorWorksTitle">WORKS</h2>
@@ -135,6 +135,7 @@ main {
 
 .DirectorWorksList {
   margin-top: 30px;
+  list-style: none;
 }
 
 .DirectorWorksList li {
@@ -257,19 +258,10 @@ main {
   .DirectorTitle h1 {
     font-size: 4.8rem;
     text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    color: #5a5a5a;
   }
 
   .DirectorLine {
-    position: absolute;
-    height: 20px;
-    width: 120%;
     top: 82px;
-    left: -100px;
-    background: #efd700;
-    z-index: -1;
   }
 
   .DirectorExplanation h2 {

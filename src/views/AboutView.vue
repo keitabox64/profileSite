@@ -54,20 +54,18 @@ const setBBObserver = () => {
               <h5>ワタナベ ケイタ</h5>
               <h4>渡邊 啓太</h4>
             </div>
-            <div class="dateOfBirth">
-              <h3>生年月日</h3>
-              <h4>平成元年3月4日</h4>
-            </div>
             <div class="oneWord">
-              <h3>自分のことを一言で表すと</h3>
-              <h4>ガチな理系なのに文系並みのフッ軽さをもつリーダータイプのオタク</h4>
+              <h3>プロフィール</h3>
+              <h4>モノづくりが好きです。好奇心とアンテナ感度が高く、何かをする時は新しい技術や手法を取り入れるようにしています。人と接することも好きで、実務やプライベートでも人と関わる経験を数多くしてきました。リーダータイプのオタクとよく言われます。</h4>
             </div>
             <div class="SNS">
               <h3>SNS</h3>
               <ul class="SNSIcon">
-                <li><a href="https://twitter.com/keitabox64" target="_blank"><img src="../assets/img/logoTwitter.svg"
+                <li><a href="https://twitter.com/ke_ke_ke_310" target="_blank"><img src="../assets/img/logoTwitter.svg"
                       alt=""></a></li>
                 <li><a href="https://note.com/k_notebook" target="_blank"><img src="../assets/img/logoNote.svg"
+                      alt=""></a></li>
+                <li><a href="https://github.com/keitabox64" target="_blank"><img src="../assets/img/logoGitHub.svg"
                       alt=""></a></li>
               </ul>
             </div>
@@ -292,6 +290,7 @@ main {
   display: flex;
   flex-direction: row;
   padding-left: 0;
+  list-style: none;
 }
 
 .SNSIcon li {
@@ -479,6 +478,10 @@ main {
 
   .oneWord {
     margin-top: 16px;
+  }
+
+  .oneWord h4 {
+    width: 400px;
   }
 
   .SNS {
