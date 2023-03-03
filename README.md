@@ -57,3 +57,4 @@ Vue.jsを使用した理由としてはコーダーではなく、フロント�
 ## 開発者
 - Keita Watanabe
 - [Twitter](https://twitter.com/ke_ke_ke_310)
+- [https://keita-watanabe.com/](https://keita-watanabe.com/)
