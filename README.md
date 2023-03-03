@@ -2,7 +2,7 @@
 ![Portfolio Site](https://github.com/keitabox64/profileSite/blob/master/KeitaWatanabeOGImage.jpg)
 
 
-#制作したサイトについて【概要と特徴】
+# 制作したサイトについて【概要と特徴】
 まず、どのようなサイトを作ったかについては以下のようになります。
 
 1.サイトの概要
